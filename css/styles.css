@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 100%;
+}
+
+body {
+    background-color: olivedrab;
+}
+
+.h1Container {
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.nav a {
+    padding: 0 20px;
+    color: white;
+    opacity: .5;
+    text-decoration: none;
+}
+
+.intro {
+    font-size: 27px;
+    color: white;
+    opacity: .75;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.images {
+    height: 200px;
+    width: 200px;
+}
