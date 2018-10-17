@@ -46,3 +46,18 @@ body {
     height: 200px;
     width: 200px;
 }
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    opacity: .8;
+    margin-top: 200px;
+}
+
+.pupClick,
+.inClick {
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+}
